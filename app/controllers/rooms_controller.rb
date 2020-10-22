@@ -11,6 +11,9 @@ class RoomsController < ApplicationController
     else
       render :new
     end
+
+    def index
+    end
   end
 
   private
